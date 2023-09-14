@@ -41,7 +41,7 @@ for p  in range(1, 7):
             #sale = book.find('div', class_='product-card-price__old').get('span')
         except AttributeError:
             author = ' - '
-            #full_price = ' - '
+            #full_price = ' - ' 
             #sale = ' - '
         data.append([link, name, author, price+' Руб'])
     
